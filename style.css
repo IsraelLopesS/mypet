@@ -1,0 +1,93 @@
+/* Estilo do container */
+.container {
+    background-color: #f6f6fb; /* fundo lilás */
+    color: #000000; /* texto branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 644px;
+    width: 400px;
+  }
+  
+  /* Estilo do header */
+  header {
+    font-size: 80px; /* tamanho do texto AURORA */
+    color: #9B59B6; /* cor cinza */
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+  }
+  
+  /* Estilo do botão */
+  #btn {
+    background-color: #fff;
+    color: #9B59B6; /* cor lilás */
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25); /* sombra */
+    transition: all 0.3s ease-in-out; /* animação */
+    margin-bottom: 10px;
+  }
+  
+  #btn:hover {
+    background-color: #9B59B6; /* cor lilás */
+    color: #fff; /* texto branco */
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.25); /* sombra mais intensa */
+  }
+  
+  /* Estilo dos inputs */
+  input[type="number"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #9B59B6; /* linha inferior */
+    color: #000000; /* texto branco */
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  /* Estilo dos parágrafos */
+  p {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+
+  
+  /* Estilo da div com a classe "date" */
+  .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 80%;
+  }
+  
+  .date.food {
+    color: #000000;
+    background-color: #ffffff; /* fundo lilás */
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25); /* sombra */
+  }
+  
+  .date.year {
+    background-color: #ffffff; /* fundo branco */
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25); /* sombra */
+  }
+  
+  /* Estilo do parágrafo com id "years" */
+  #years {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Estilo do parágrafo com id "food" */
+  #food {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
